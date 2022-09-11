@@ -1,13 +1,12 @@
 :root {
-	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-
-	--color-one: rgb(36, 36, 36);
-	--color-two: rgb(76, 216, 216);
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    --color-one: rgb(36, 36, 36);
+    --color-two: rgb(76, 216, 216);
 }
 
 body {
-	margin: 0;
-	width: 100vw;
-	box-sizing: border-box;
-	overflow-x: hidden;
+    margin: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
