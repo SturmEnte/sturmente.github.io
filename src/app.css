@@ -1,6 +1,7 @@
 :root {
     font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
     --gray-one: rgb(36, 36, 36);
+    --gray-two: rgb(63, 63, 63);
     --accent-one: rgb(76, 216, 216);
 }
 

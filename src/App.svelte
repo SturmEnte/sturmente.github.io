@@ -31,15 +31,6 @@
 </main>
 
 <style>
-	#internal-links {
-		width: 100vw;
-		height: 10vh;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: space-around;
-	}
-
 	#about {
 		height: 90vh;
 		width: 100vw;
@@ -79,5 +70,15 @@
 
 	#about-child-02 img {
 		width: 30vw;
+	}
+
+	#internal-links {
+		width: 100vw;
+		height: 10vh;
+		background: var(--gray-two);
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
 	}
 </style>
