@@ -3,19 +3,20 @@ import keyboardMousePaper from "./assets/keyboard-mouse-paper.svg"
 </script>
 
 <main>
-  <div id="wrapper-01">
-      <div id="w1-child-01" class="w1-child">
+  <div id="about">
+      <div id="about-child-01" class="about-child">
         <div class="title">Who am I?</div>
         <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum velit qui dolore doloribus iusto necessitatibus? Neque illum aperiam hic rerum in consectetur modi ipsum recusandae corporis laboriosam tempore repellat nostrum temporibus, provident nam nihil error necessitatibus pariatur a deserunt mollitia sunt, at quas ullam. Temporibus quibusdam neque, quam amet itaque qui doloremque minima accusantium! Id est ab minima, explicabo maiores sunt natus? Cupiditate fugiat illum, odio ad, porro facilis, maiores exercitationem qui consequuntur sequi vel eos laudantium? Iure cumque a et culpa facilis ad voluptatum in, at iusto nam, dignissimos beatae earum! Corporis, praesentium ullam alias fugiat modi, nam vero, dignissimos architecto voluptatem nemo totam eaque excepturi officiis quae quod aliquam saepe aspernatur? Accusamus maiores a sed soluta. Provident, perspiciatis cumque sit labore eaque non explicabo possimus inventore rerum porro eligendi quae harum, suscipit, eos aliquid omnis aliquam voluptates tempore quis? Expedita provident eligendi reprehenderit molestiae eius, beatae, doloremque explicabo in tenetur deleniti rerum, minus quibusdam repudiandae? A obcaecati, tenetur vel enim expedita, quidem, quam iste doloribus architecto tempore autem officia odio id itaque unde fugit esse eveniet dolore labore. Quam laboriosam laborum, doloremque sed obcaecati quidem, non tenetur aperiam veritatis sunt esse! Commodi, officiis error numquam perspiciatis repellendus repudiandae.</div>
       </div>
-      <div id="w1-child-02" class="w1-child">
+      <div id="about-child-02" class="about-child">
         <img src="{keyboardMousePaper}" alt="Keyboard Mouse Paper">
       </div>
   </div>
+  <div></div>
 </main>
 
 <style>
-  #wrapper-01 {
+  #about {
     height: 90vh;
     width: 100vw;
     display: flex;
@@ -23,11 +24,11 @@ import keyboardMousePaper from "./assets/keyboard-mouse-paper.svg"
     justify-content: baseline;
   }
 
-  .w1-child {
+  .about-child {
     height: 90vh;
   }
 
-  #w1-child-01 {
+  #about-child-01 {
     background-color: var(--color-one);
     color: white;
     padding: 0 50px;
@@ -45,7 +46,7 @@ import keyboardMousePaper from "./assets/keyboard-mouse-paper.svg"
     margin-bottom: 5px;
   }
 
-  #w1-child-02 {
+  #about-child-02 {
     background-color: var(--color-two);
     width: 40vw;
     display: flex;
@@ -53,7 +54,7 @@ import keyboardMousePaper from "./assets/keyboard-mouse-paper.svg"
     justify-content: center;
   }
 
-  #w1-child-02 img {
+  #about-child-02 img {
     width: 30vw;
   }
 </style>
