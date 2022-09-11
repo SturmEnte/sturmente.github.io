@@ -1,7 +1,10 @@
 <script>
 	import InternalLink from "./lib/InternalLink.svelte";
+	import Skill from "./lib/Skill.svelte";
 
 	import keyboardMousePaper from "./assets/keyboard-mouse-paper.svg";
+
+	import nodejsIcon from "./assets/skills/nodejs.svg";
 </script>
 
 <main>
@@ -28,6 +31,12 @@
 		<InternalLink name="Skills" targetId="skills" />
 		<InternalLink name="Projects" targetId="projects" />
 		<InternalLink name="Contact" targetId="contact" />
+	</div>
+	<div id="skills">
+		<div id="skill-title">Skills</div>
+		<div id="skill-wrapper">
+			<Skill name="NodeJs" level={10} icon={nodejsIcon} />
+		</div>
 	</div>
 </main>
 
@@ -80,5 +89,19 @@
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-around;
+	}
+
+	#skills {
+		padding-top: 10px;
+	}
+
+	#skill-title {
+		font-size: 2em;
+	}
+
+	#skill-wrapper {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
 	}
 </style>
