@@ -1,4 +1,6 @@
 <script>
+import InternalLink from "./lib/InternalLink.svelte";
+
 import keyboardMousePaper from "./assets/keyboard-mouse-paper.svg"
 </script>
 
@@ -12,10 +14,23 @@ import keyboardMousePaper from "./assets/keyboard-mouse-paper.svg"
         <img src="{keyboardMousePaper}" alt="Keyboard Mouse Paper">
       </div>
   </div>
-  <div></div>
+  <div id="internal-links">
+    <InternalLink name="Skills" targetId="skills" />
+    <InternalLink name="Projects" targetId="projects" />
+    <InternalLink name="Contact" targetId="contact" />
+  </div>
 </main>
 
 <style>
+  #internal-links {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
   #about {
     height: 90vh;
     width: 100vw;
@@ -32,7 +47,6 @@ import keyboardMousePaper from "./assets/keyboard-mouse-paper.svg"
     background-color: var(--color-one);
     color: white;
     padding: 0 50px;
-    box-sizing: border-box;
     width: 60vw;
     font-size: 1.2em;
     display: flex;
