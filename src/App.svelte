@@ -53,7 +53,7 @@
 	}
 
 	#about-child-01 {
-		background-color: var(--color-one);
+		background-color: var(--gray-one);
 		color: white;
 		padding: 0 50px;
 		width: 60vw;
@@ -70,7 +70,7 @@
 	}
 
 	#about-child-02 {
-		background-color: var(--color-two);
+		background-color: var(--accent-one);
 		width: 40vw;
 		display: flex;
 		align-items: center;

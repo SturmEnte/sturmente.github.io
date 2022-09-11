@@ -9,7 +9,7 @@
 
 <style>
 	a {
-		background: var(--color-one);
+		background: var(--gray-one);
 		width: 20vw;
 		height: 8vh;
 		text-decoration: none;
