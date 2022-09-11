@@ -46,7 +46,6 @@
 
 	#about-child-01 {
 		background-color: var(--gray-one);
-		color: white;
 		padding: 0 50px;
 		width: 60vw;
 		font-size: 1.2em;

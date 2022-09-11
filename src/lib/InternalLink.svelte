@@ -12,8 +12,8 @@
 		background: var(--gray-one);
 		width: 20vw;
 		height: 8vh;
-		text-decoration: none;
 		color: white;
+		text-decoration: none;
 		font-size: 1.5em;
 		border-radius: 15px;
 		display: flex;
