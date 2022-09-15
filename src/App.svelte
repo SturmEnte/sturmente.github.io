@@ -35,7 +35,7 @@
 	<div id="skills">
 		<div id="skill-title">Skills</div>
 		<div id="skill-wrapper">
-			<Skill name="NodeJs" level={10} icon={nodejsIcon} />
+			<Skill name="NodeJs" experience={10} icon={nodejsIcon} />
 		</div>
 	</div>
 </main>
@@ -93,6 +93,7 @@
 
 	#skills {
 		padding-top: 10px;
+		margin-left: 20px;
 	}
 
 	#skill-title {
