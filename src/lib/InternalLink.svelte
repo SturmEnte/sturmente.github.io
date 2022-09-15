@@ -14,7 +14,7 @@
 		height: 8vh;
 		color: white;
 		text-decoration: none;
-		font-size: 1.5em;
+		font-size: 1.5rem;
 		border-radius: 15px;
 		display: flex;
 		justify-content: center;

@@ -57,7 +57,7 @@
 		background-color: var(--gray-one);
 		padding: 0 50px;
 		width: 60vw;
-		font-size: 1.2em;
+		font-size: 1.2rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -65,7 +65,7 @@
 	}
 
 	.title {
-		font-size: 2.5em;
+		font-size: 2.5rem;
 		margin-bottom: 5px;
 	}
 
@@ -96,7 +96,7 @@
 	}
 
 	#skill-title {
-		font-size: 2em;
+		font-size: 2rem;
 	}
 
 	#skill-wrapper {
