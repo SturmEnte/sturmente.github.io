@@ -39,6 +39,7 @@
 		justify-content: space-between;
 		padding-left: 10px;
 		border-radius: 15px;
+		margin-bottom: 15px;
 	}
 
 	#ni-wrapper {

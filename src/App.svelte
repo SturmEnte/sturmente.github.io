@@ -102,7 +102,8 @@
 
 	#skill-wrapper {
 		display: flex;
-		justify-content: flex-start;
-		align-items: center;
+		justify-content: center;
+		align-items: flex-start;
+		flex-direction: column;
 	}
 </style>
