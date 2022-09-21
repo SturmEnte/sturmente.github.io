@@ -5,11 +5,9 @@
 	export let experience;
 	export let icon;
 
-	experience = Number(experience);
-
 	onMount(() => {
 		const xpElement = document.getElementById("xp");
-		xpElement.style.width = `calc(var(--experience-widht) / 10 * ${experience})`;
+		xpElement.style.width = `calc(var(--experience-widht) / 10 * ${Number(experience)})`;
 	});
 </script>
 
