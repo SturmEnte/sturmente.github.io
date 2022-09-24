@@ -20,8 +20,14 @@ import typescriptIcon from "./assets/skills/typescript.svg";
 import viteIcon from "./assets/skills/vite.svg";
 import vueIcon from "./assets/skills/vue.svg";
 import webpackIcon from "./assets/skills/webpack.svg";
+import arduino from "./assets/skills/arduino.svg";
 
 export default [
+	{
+		name: "Arduino",
+		experience: 7,
+		icon: arduino,
+	},
 	{
 		name: "Css",
 		experience: 7,
