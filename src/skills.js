@@ -15,22 +15,11 @@ import phpIcon from "./assets/skills/php.svg";
 import postmanIcon from "./assets/skills/postman.png";
 import rustIcon from "./assets/skills/rust.svg";
 import sassIcon from "./assets/skills/sass.svg";
+import svelteIcon from "./assets/skills/svelte.svg";
 import typescriptIcon from "./assets/skills/typescript.svg";
 import viteIcon from "./assets/skills/vite.svg";
 import vueIcon from "./assets/skills/vue.svg";
 import webpackIcon from "./assets/skills/webpack.svg";
-
-/* Copyright icons
-	css
-	discord.js 	edited
-	git
-	html
-	mongodb
-	php
-	postman 	edited
-	rust
-	vue
-*/
 
 export default [
 	{
@@ -117,6 +106,11 @@ export default [
 		name: "Sass",
 		experience: 6,
 		icon: sassIcon,
+	},
+	{
+		name: "Svelte",
+		experience: 8,
+		icon: svelteIcon,
 	},
 	{
 		name: "TypeScript",
