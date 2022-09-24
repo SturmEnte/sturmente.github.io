@@ -1,26 +1,26 @@
-import cssIcon from "./assets/skills/css3.svg";
-import cppIcon from "./assets/skills/cpp.svg";
-import discordjsIcon from "./assets/skills/discordjs.png";
-import electronIcon from "./assets/skills/electron.svg";
-import expressIcon from "./assets/skills/express.png";
-import gitIcon from "./assets/skills/git.svg";
-import gulpIcon from "./assets/skills/gulp.svg";
-import htmlIcon from "./assets/skills/html5.svg";
-import javascriptIcon from "./assets/skills/js.svg";
-import jwtIcon from "./assets/skills/jwt.svg";
-import mongodbIcon from "./assets/skills/mongodb.svg";
-import mysqlIcon from "./assets/skills/mysql.svg";
-import nodejsIcon from "./assets/skills/nodejs.svg";
-import phpIcon from "./assets/skills/php.svg";
-import postmanIcon from "./assets/skills/postman.png";
-import rustIcon from "./assets/skills/rust.svg";
-import sassIcon from "./assets/skills/sass.svg";
-import svelteIcon from "./assets/skills/svelte.svg";
-import typescriptIcon from "./assets/skills/typescript.svg";
-import viteIcon from "./assets/skills/vite.svg";
-import vueIcon from "./assets/skills/vue.svg";
-import webpackIcon from "./assets/skills/webpack.svg";
 import arduino from "./assets/skills/arduino.svg";
+import css from "./assets/skills/css3.svg";
+import cpp from "./assets/skills/cpp.svg";
+import discordjs from "./assets/skills/discordjs.png";
+import electron from "./assets/skills/electron.svg";
+import express from "./assets/skills/express.png";
+import git from "./assets/skills/git.svg";
+import gulp from "./assets/skills/gulp.svg";
+import html from "./assets/skills/html5.svg";
+import javascript from "./assets/skills/js.svg";
+import jwt from "./assets/skills/jwt.svg";
+import mongodb from "./assets/skills/mongodb.svg";
+import mysql from "./assets/skills/mysql.svg";
+import nodejs from "./assets/skills/nodejs.svg";
+import php from "./assets/skills/php.svg";
+import postman from "./assets/skills/postman.png";
+import rust from "./assets/skills/rust.svg";
+import sass from "./assets/skills/sass.svg";
+import svelte from "./assets/skills/svelte.svg";
+import typescript from "./assets/skills/typescript.svg";
+import vite from "./assets/skills/vite.svg";
+import vue from "./assets/skills/vue.svg";
+import webpack from "./assets/skills/webpack.svg";
 
 export default [
 	{
@@ -31,111 +31,111 @@ export default [
 	{
 		name: "Css",
 		experience: 7,
-		icon: cssIcon,
+		icon: css,
 	},
 	{
 		name: "C++",
 		expericence: 5,
-		icon: cppIcon,
+		icon: cpp,
 	},
 	{
 		name: "Discord.js",
 		experience: 9,
-		icon: discordjsIcon,
+		icon: discordjs,
 	},
 	{
 		name: "Electron",
 		experience: 5,
-		icon: electronIcon,
+		icon: electron,
 	},
 	{
 		name: "Express",
 		experience: 9,
-		icon: expressIcon,
+		icon: express,
 	},
 	{
 		name: "Git",
 		experience: 8,
-		icon: gitIcon,
+		icon: git,
 	},
 	{
 		name: "Gulp.js",
 		experience: 7,
-		icon: gulpIcon,
+		icon: gulp,
 	},
 	{
 		name: "Html",
 		experience: 9.5,
-		icon: htmlIcon,
+		icon: html,
 	},
 	{
 		name: "JavaScript",
 		experience: 10,
-		icon: javascriptIcon,
+		icon: javascript,
 	},
 	{
 		name: "Json Web Token",
 		experience: 8,
-		icon: jwtIcon,
+		icon: jwt,
 	},
 	{
 		name: "MongoDB",
 		experience: 8,
-		icon: mongodbIcon,
+		icon: mongodb,
 	},
 	{
 		name: "MySQL",
 		experience: 6,
-		icon: mysqlIcon,
+		icon: mysql,
 	},
 	{
 		name: "Node.js",
 		experience: 10,
-		icon: nodejsIcon,
+		icon: nodejs,
 	},
 	{
 		name: "php",
 		experience: 4,
-		icon: phpIcon,
+		icon: php,
 	},
 	{
 		name: "Postman",
 		experience: 7,
-		icon: postmanIcon,
+		icon: postman,
 	},
 	{
 		name: "Rust",
 		experience: 6,
-		icon: rustIcon,
+		icon: rust,
 	},
 	{
 		name: "Sass",
 		experience: 6,
-		icon: sassIcon,
+		icon: sass,
 	},
 	{
 		name: "Svelte",
 		experience: 8,
-		icon: svelteIcon,
+		icon: svelte,
 	},
 	{
 		name: "TypeScript",
 		experience: 9,
-		icon: typescriptIcon,
+		icon: typescript,
 	},
 	{
 		name: "Vite",
 		experience: 9,
-		icon: viteIcon,
+		icon: vite,
 	},
 	{
 		name: "Vue.js",
 		experience: 8,
-		icon: vueIcon,
+		icon: vue,
 	},
 	{
 		name: "Webpack",
 		experience: 8,
-		icon: webpackIcon,
+		icon: webpack,
 	},
 ];
