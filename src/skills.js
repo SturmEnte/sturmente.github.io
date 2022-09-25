@@ -35,7 +35,7 @@ export default [
 	},
 	{
 		name: "C++",
-		expericence: 5,
+		experience: 5,
 		icon: cpp,
 	},
 	{
