@@ -95,7 +95,7 @@
 
 	#skills {
 		padding-top: 10px;
-		margin-left: 20px;
+		padding-left: 15px;
 	}
 
 	#skill-title {
