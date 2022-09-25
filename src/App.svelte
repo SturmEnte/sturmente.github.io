@@ -35,7 +35,7 @@
 	<div id="skills">
 		<div id="skill-title">Skills</div>
 		<div id="skill-wrapper">
-			{#each skills as skill, i}
+			{#each skills as skill}
 				<Skill name={skill.name} experience={skill.experience} icon={skill.icon} />
 			{/each}
 		</div>
