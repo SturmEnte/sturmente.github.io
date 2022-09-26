@@ -40,12 +40,12 @@ export default [
 	},
 	{
 		name: "Discord.js",
-		experience: 9,
+		experience: 9.5,
 		icon: discordjs,
 	},
 	{
 		name: "Electron",
-		experience: 5,
+		experience: 6,
 		icon: electron,
 	},
 	{
@@ -55,7 +55,7 @@ export default [
 	},
 	{
 		name: "Git",
-		experience: 8,
+		experience: 7,
 		icon: git,
 	},
 	{
@@ -65,7 +65,7 @@ export default [
 	},
 	{
 		name: "Html",
-		experience: 9.5,
+		experience: 10,
 		icon: html,
 	},
 	{
@@ -75,7 +75,7 @@ export default [
 	},
 	{
 		name: "Json Web Token",
-		experience: 8,
+		experience: 9,
 		icon: jwt,
 	},
 	{
