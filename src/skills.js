@@ -1,5 +1,6 @@
 import arduino from "./assets/skills/arduino.svg";
 import css from "./assets/skills/css3.svg";
+import c from "./assets/skills/c.svg";
 import cpp from "./assets/skills/cpp.svg";
 import discordjs from "./assets/skills/discordjs.png";
 import electron from "./assets/skills/electron.svg";
@@ -37,6 +38,11 @@ export default [
 		name: "C++",
 		experience: 5,
 		icon: cpp,
+	},
+	{
+		name: "C",
+		experience: 3,
+		icon: c,
 	},
 	{
 		name: "Discord.js",
