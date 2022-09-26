@@ -3,12 +3,23 @@
 
 	import InternalLink from "./lib/InternalLink.svelte";
 	import Skill from "./lib/Skill.svelte";
+	import Popup from "./lib/Popup.svelte";
 
 	import keyboardMousePaper from "./assets/keyboard-mouse-paper.svg";
 
 	import githubIcon from "./assets/github.png";
 	import discordIcon from "./assets/discord.svg";
 	import emailIcon from "./assets/email.png";
+
+	function openPopup(id) {
+		document.getElementById(id).style.display = "block";
+		document.body.style.overflowY = "hidden";
+	}
+
+	function hidePopup(id) {
+		document.getElementById(id).style.display = "none";
+		document.body.style.overflowY = "scroll";
+	}
 </script>
 
 <main>
@@ -49,22 +60,37 @@
 			<img src={githubIcon} alt="GitHub Icon" />
 			<span style="color: white;">GitHub</span>
 		</a>
-		<div class="contact">
+		<div
+			class="contact"
+			on:click={() => {
+				openPopup("discord");
+			}}
+		>
 			<img src={discordIcon} alt="Discord Icon" />
 			<span style="color: #5865F2;">Discord</span>
 		</div>
-		<div class="contact">
+		<div
+			class="contact"
+			on:click={() => {
+				openPopup("email");
+			}}
+		>
 			<img src={emailIcon} alt="Email Icon" />
 			<span style="color: white;">Email</span>
 		</div>
 	</div>
 </main>
 
+<div id="popups">
+	<div id="discord" style="display: none;">
+		<Popup id="discord" title="Discord" fields={[{ name: "Username + Tag", value: "SturmEnte#4367" }]} hideFunction={hidePopup} />
+	</div>
+	<div id="email" style="display: none;">
+		<Popup id="email" title="Email" fields={[{ name: "Email Adress", value: "sturmente@proton.me" }]} hideFunction={hidePopup} />
+	</div>
+</div>
 
 <style>
-	body {
-	}
-
 	#about {
 		height: 90vh;
 		width: 100vw;

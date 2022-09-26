@@ -6,6 +6,9 @@
 	--gray-one: rgb(36, 36, 36);
 	--gray-two: rgb(63, 63, 63);
 	--accent-one: rgb(76, 216, 216);
+	--black-st: rgba(0, 0, 0, 0.8);
+
+	--overflow: auto;
 }
 
 body {
@@ -13,5 +16,6 @@ body {
 	width: 100vw;
 	box-sizing: border-box;
 	overflow-x: hidden;
+	overflow-y: var(--overflow);
 	background: var(--gray-two);
 }
