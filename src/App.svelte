@@ -5,6 +5,10 @@
 	import Skill from "./lib/Skill.svelte";
 
 	import keyboardMousePaper from "./assets/keyboard-mouse-paper.svg";
+
+	import githubIcon from "./assets/github.png";
+	import discordIcon from "./assets/discord.svg";
+	import emailIcon from "./assets/email.png";
 </script>
 
 <main>
@@ -40,9 +44,48 @@
 			{/each}
 		</div>
 	</div>
+	<div id="contacts">
+		<a class="contact" href="https://github.com/sturmente">
+			<img src={githubIcon} alt="GitHub Icon" />
+			<span style="color: white;">GitHub</span>
+		</a>
+		<div class="contact">
+			<img src={discordIcon} alt="Discord Icon" />
+			<span style="color: #5865F2;">Discord</span>
+		</div>
+		<div class="contact">
+			<img src={emailIcon} alt="Email Icon" />
+			<span style="color: white;">Email</span>
+		</div>
+	</div>
 </main>
 
 <style>
+	#contacts {
+		background: var(--gray-one);
+		font-size: 1.3rem;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		padding: 20px;
+	}
+
+	#contacts span,
+	#contacts div {
+		padding-left: 10px;
+	}
+
+	#contacts img {
+		height: 5vh;
+	}
+
+	.contact {
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+
 	#about {
 		height: 90vh;
 		width: 100vw;
@@ -59,7 +102,6 @@
 		background-color: var(--gray-one);
 		padding: 0 50px;
 		width: 60vw;
-		font-size: 1.2rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
