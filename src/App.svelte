@@ -60,30 +60,9 @@
 	</div>
 </main>
 
+
 <style>
-	#contacts {
-		background: var(--gray-one);
-		font-size: 1.3rem;
-		display: flex;
-		align-items: center;
-		justify-content: space-around;
-		padding: 20px;
-	}
-
-	#contacts span,
-	#contacts div {
-		padding-left: 10px;
-	}
-
-	#contacts img {
-		height: 5vh;
-	}
-
-	.contact {
-		text-decoration: none;
-		display: flex;
-		align-items: center;
-		justify-content: space-around;
+	body {
 	}
 
 	#about {
@@ -149,5 +128,30 @@
 		justify-content: center;
 		align-items: flex-start;
 		flex-direction: column;
+	}
+
+	#contacts {
+		background: var(--gray-one);
+		font-size: 1.3rem;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		padding: 20px;
+	}
+
+	#contacts span,
+	#contacts div {
+		padding-left: 10px;
+	}
+
+	#contacts img {
+		height: 5vh;
+	}
+
+	.contact {
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
 	}
 </style>
