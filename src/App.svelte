@@ -20,6 +20,10 @@
 		document.getElementById(id).style.display = "none";
 		document.body.style.overflowY = "scroll";
 	}
+
+	function up() {
+		window.scrollTo({ top: 0 });
+	}
 </script>
 
 <main>
@@ -81,6 +85,8 @@
 	</div>
 </main>
 
+<div id="up-btn" on:click={up}><span>▲</span></div>
+
 <div id="popups">
 	<div id="discord" style="display: none;">
 		<Popup id="discord" title="Discord" fields={[{ name: "Username + Tag", value: "SturmEnte#4367" }]} hideFunction={hidePopup} />
@@ -124,6 +130,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		z-index: 2;
 	}
 
 	#about-child-02 img {
@@ -179,6 +186,22 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-around;
+		cursor: pointer;
+	}
+
+	#up-btn {
+		color: white;
+		background: var(--accent-one);
+		position: fixed;
+		font-size: 1.8rem;
+		right: 50px;
+		bottom: 120px;
+		width: 60px;
+		height: 60px;
+		border-radius: 200px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		cursor: pointer;
 	}
 </style>
