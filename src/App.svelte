@@ -45,7 +45,7 @@
 	<div id="internal-links">
 		<InternalLink name="Skills" targetId="skills" />
 		<InternalLink name="Projects" targetId="projects" />
-		<InternalLink name="Contact" targetId="contact" />
+		<InternalLink name="Contact" targetId="contacts" />
 	</div>
 	<div id="skills">
 		<div id="skill-title">Skills</div>
